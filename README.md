@@ -16,13 +16,9 @@ of processes. Initialize this array as 0.
 4- Keep traversing the all processes while all processes
 are not done. Do following for ith process if it is
 not done yet.
-<<<<<<< HEAD
-a- If rem_bt[i] >quantum
-=======
 
 a- If rem_bt[i] > quantum
 
->>>>>>> d05bf26919313701f84c883b524c53252ef59520
 (i) t = t + quantum
 
 (ii) bt_rem[i] -= quantum;
