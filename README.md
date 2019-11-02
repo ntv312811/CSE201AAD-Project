@@ -14,12 +14,7 @@ of processes. Initialize this array as 0.
 3- Initialize time : t = 0
 
 4- Keep traversing the all processes while all processes
-are not done. Do following for ith process if it is
-<<<<<<< HEAD
-not done yet
-=======
-not done yet.
->>>>>>> 51c8abb16bdaaca137d11144ee4e0d23fdf2800e
+are not done. Do following for ith process if it is not done yet
 
 a- If rem_bt[i] > quantum
 
