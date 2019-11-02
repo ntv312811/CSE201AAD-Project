@@ -15,14 +15,10 @@ of processes. Initialize this array as 0.
 
 4- Keep traversing the all processes while all processes
 are not done. Do following for ith process if it is
-not done yet.
-<<<<<<< HEAD
-a- If rem_bt[i] >quantum
-=======
+not done yet
 
 a- If rem_bt[i] > quantum
 
->>>>>>> d05bf26919313701f84c883b524c53252ef59520
 (i) t = t + quantum
 
 (ii) bt_rem[i] -= quantum;
@@ -34,3 +30,5 @@ c- Else // Last cycle for this process
 (ii) wt[i] = t - bt[i]
 
 (ii) bt_rem[i] = 0;
+
+TIME COMPLEXITY: In the above program code ,there are two for loops involved.one for loop iterates for "limit" times and the other loop executes for "x" times and the remaining statements takes one unit amount of time.so,the first loop has a time complexity of O(limit),and the second for loop has a time complexity of O(x). therefore,the overall time complexity of the program is O(limit+x).
